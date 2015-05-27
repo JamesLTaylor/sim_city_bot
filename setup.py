@@ -6,8 +6,8 @@ setup(
     description="",
     long_description="",
     version="0.0",
-    # url='https://github.com/ivesn/demopkg', # not currently hosted
+    url='https://github.com/JamesLTaylor/sim_city_bot',
     author='James Taylor',
-    packages=['personal'],
+    packages=['sim_city_bot'],
     install_requires=[]    
 )
