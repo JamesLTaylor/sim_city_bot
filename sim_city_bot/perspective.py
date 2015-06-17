@@ -1,5 +1,5 @@
 import contour
-import personal.robot as robot
+import robot
 import win32api, win32con
 import time
 import math
@@ -410,9 +410,9 @@ def test1():
     getmidsmall(img)
     
 def test2():
-    img = cv2.imread("C:\\Dev\\Trunk\\python\\james\\image\\leftcornernight.png")
-    imgright = cv2.imread("C:\\Dev\\Trunk\\python\\james\\image\\leftcornernight_right.png")
-    imgup = cv2.imread("C:\\Dev\\Trunk\\python\\james\\image\\leftcornerevening_up.png")
+    img = cv2.imread("C:\\Dev\\python\\sim_city_bot\\sim_city_bot\\\images\\leftcornernight.png")
+    imgright = cv2.imread("C:\\Dev\\python\\sim_city_bot\\sim_city_bot\\\images\\leftcornernight_right.png")
+    imgup = cv2.imread("C:\\Dev\\python\\sim_city_bot\\sim_city_bot\\\images\\leftcornerevening_up.png")
     
     grid = Grid.fromimg(img, imgright, imgup, show = False)
     grid.setscreen(0, 0)    
@@ -422,6 +422,6 @@ if __name__ == "__main__":
     """thisimg = cv2.imread("C:\\Dev\\Trunk\\python\\james\\image\\error.PNG") 
     midsbottom = midgaps(thisimg, vertical = False, show = True)    
     """
-    test1()
+    test2()
 
     

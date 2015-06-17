@@ -11,7 +11,7 @@
 """
 
 import contour
-import personal.robot as robot
+import robot
 import perspective
 import win32api, win32con
 import time
